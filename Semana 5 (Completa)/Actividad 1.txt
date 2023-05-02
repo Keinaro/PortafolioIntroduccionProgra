@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main() 
+    {
+        int x = 10;
+        double y = 25;
+        
+        double pi = 3.1416;
+        double r = x * pi;
+        double r2 = y + pi;
+        
+        Console.WriteLine("Multiplicación: " + r);
+        Console.WriteLine("Suma: " + r2);
+    }
+}

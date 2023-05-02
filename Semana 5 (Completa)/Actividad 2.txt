@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main() 
+    {
+        int x = 2;
+        double y = 25;
+        
+        double pi = 3.1416;
+        double r = x * pi;
+        double r2 = y + pi;
+        double area = (r * r) * pi;
+        
+        Console.WriteLine("Multiplicación: " + r);
+        Console.WriteLine("Suma: " + r2);
+        Console.WriteLine("Área de un circulo: " + area);
+    }
+}
